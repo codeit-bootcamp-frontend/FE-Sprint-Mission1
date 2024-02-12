@@ -6,6 +6,7 @@
 
 body {
   color: #374151;
+  word-break: keep-all;
 }
 
 header {
@@ -87,4 +88,30 @@ h1 {
   width: 355px;
   height: 60px;
   margin-top: 32px;
+}
+
+.feature {
+  padding: 138px 0;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.feature-tag {
+  color: #3692ff;
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-description {
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.align-right {
+  text-align: right;
 }
