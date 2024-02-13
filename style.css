@@ -22,6 +22,7 @@ header {
   padding: 0 200px;
   max-width: 1920px;
   background-color: #ffffff;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 main {
