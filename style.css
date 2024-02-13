@@ -35,8 +35,9 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 32px 104px 108px 104px;
-  font-size: 16px;
   font-family: "Abel";
+  font-size: 16px;
+  line-height: 20px;
 }
 
 #footerMenu {
@@ -82,7 +83,9 @@ a {
 
 h1 {
   font-size: 40px;
+  font-weight: 700;
   line-height: 56px;
+  letter-spacing: 0.02em;
 }
 
 .button {
@@ -125,15 +128,16 @@ h1 {
 .feature-tag {
   color: #3692ff;
   font-size: 18px;
-  line-height: 25.2px;
+  line-height: 25px;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
 .feature-description {
   font-size: 24px;
-  line-height: 28.8px;
   font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.08em;
   margin-top: 24px;
 }
 
