@@ -97,7 +97,6 @@ h1 {
   font-size: 16px;
   font-weight: 600;
   border-radius: 8px;
-  /* padding: 14.5px 43px; */
   width: 128px;
   height: 48px;
 }
@@ -106,7 +105,6 @@ h1 {
   font-size: 20px;
   font-weight: 700;
   border-radius: 9999px;
-  /* padding: 16px 125px; */
   width: 355px;
   height: 60px;
   margin-top: 32px;
@@ -116,7 +114,7 @@ h1 {
   padding: 138px 0;
   display: flex;
   align-items: center;
-  gap: 64px;
+  gap: 5%;
 }
 
 .feature-content {
