@@ -98,6 +98,14 @@ h1 {
   justify-content: center;
 }
 
+.button:hover {
+  background-color: #1967d6;
+}
+
+.button:focus {
+  background-color: #1251aa;
+}
+
 #signinButton {
   font-size: 16px;
   font-weight: 600;
