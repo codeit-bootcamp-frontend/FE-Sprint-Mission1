@@ -21,11 +21,6 @@ header {
   border-bottom: 1px solid #dfdfdf;
 }
 
-header a {
-  display: flex;
-  align-items: center;
-}
-
 footer {
   background-color: #111827;
   color: #9ca3af;
@@ -50,6 +45,10 @@ footer {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+img {
+  vertical-align: bottom;
 }
 
 .wrapper {
