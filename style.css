@@ -113,6 +113,9 @@ h1 {
   width: 40%;
   max-width: 355px;
   height: 60px;
+}
+
+.banner .pill-button {
   margin-top: 32px;
 }
 
