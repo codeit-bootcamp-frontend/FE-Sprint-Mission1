@@ -88,8 +88,9 @@ button {
   background-color: #1251aa;
 }
 
-button:disabled {
+.button:disabled {
   background-color: #9ca3af;
+  cursor: default;
 }
 
 .pill-button {
