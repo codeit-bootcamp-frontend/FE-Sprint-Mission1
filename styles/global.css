@@ -64,6 +64,14 @@ h1 {
   letter-spacing: 0.02em;
 }
 
+button {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
 .button {
   background-color: #3692ff;
   color: #ffffff;
