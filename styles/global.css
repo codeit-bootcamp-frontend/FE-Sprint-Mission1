@@ -91,6 +91,7 @@ button {
 .button:disabled {
   background-color: #9ca3af;
   cursor: default;
+  pointer-events: none;
 }
 
 .pill-button {
