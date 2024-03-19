@@ -116,10 +116,14 @@ h1 {
   pointer-events: none;
 }
 
-/* 알약 모양의 버튼을 'pill button'이라고 부릅니다. border-radius에 큰 값을 넣어주면 모서리가 원형으로 둥글려지는 효과가 있습니다. */
+/* 
+  - 알약 모양의 버튼을 'pill button'이라고 부릅니다. 
+  - border-radius에 큰 값을 넣어주면 모서리가 원형으로 둥글려지는 효과가 있습니다. 
+  - 고정된 width나 height을 부여하는 것보다 내부 콘텐츠에 padding을 적용해서 요소의 전체 크기를 유동적으로 조정하는 방법이 반응형 웹 디자인과 접근성(accessibility) 측면에서 더 적합합니다.
+*/
 .pill-button {
   font-size: 20px;
   font-weight: 700;
   border-radius: 999px;
-  padding: 16px 126px;
+  padding: 16px 124px;
 }
